@@ -1,0 +1,38 @@
+.widget_recent_posts_of_specific_category ul {
+	background-image: none !important;
+}
+
+.widget_recent_posts_of_specific_category li.with_image:before,
+.widget_recent_posts_of_specific_category li.with_image:after {
+	content: " " !important;
+	height: 5px !important;
+	display: block;
+	visibility: visible;
+}
+
+.widget_recent_posts_of_specific_category li.with_image:after {
+	clear: both;
+}
+
+.widget_recent_posts_of_specific_category li.with_image {
+	display: inline;
+	vertical-align: middle;
+	background-image: none;
+	margin-left: 0;
+	padding-left: 0;
+	line-height: 140% !important;
+}
+
+.widget_recent_posts_of_specific_category li.with_image img {
+	float: left;
+	margin-right: 10px;
+}
+
+.widget_recent_posts_of_specific_category li.with_image:last-child img {
+	margin-bottom: 0;
+}
+
+.widget_recent_posts_of_specific_category li.with_image > span {
+	display: block;
+	overflow: hidden;
+}
